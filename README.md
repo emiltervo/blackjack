@@ -26,7 +26,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/emiltervo/blackjack.git](https://github.com/emiltervo/blackjack.git)
+   git clone https://github.com/emiltervo/blackjack.git
    cd blackjack-game
    ```
 
