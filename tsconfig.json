@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ESNext", // Use ESNext for modern JS features
+        "module": "CommonJS", // CommonJS is required for Node.js
+        "strict": true, // Enables all strict type-checking options
+        "outDir": "./dist", // Output compiled files to the dist directory
+        "esModuleInterop": true, // Allows interop with ES modules
+        "noImplicitAny": true, // Prevents implicit `any` type
+        "strictNullChecks": true, // Ensures stricter null checks
+        "rootDir": "./", // Sets the root directory for input files
+        "resolveJsonModule": true, // Allows importing .json files
+        "skipLibCheck": true // Speeds up type-checking by skipping library checks
+    },
+    "include": [
+        "*.ts" // Includes all TypeScript files in the root directory
+    ],
+    "exclude": [
+        "node_modules", // Exclude node_modules from compilation
+        "dist", // Exclude the dist directory to avoid re-compiling output
+        "public/*.js" // Exclude compiled frontend JavaScript files
+    ]
+}

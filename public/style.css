@@ -1,0 +1,163 @@
+/* General styling */
+body {
+    background-color: #121212;
+    /* Dark mode background */
+    color: white;
+    /* White text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game container styling */
+#game-container {
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background for the game area */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Card styling */
+.card {
+    width: 60px;
+    height: 90px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    /* Horizontally center all content */
+    align-items: center;
+    /* Vertically center all content */
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+    display: inline-block;
+    /* Keeps cards aligned horizontally */
+}
+
+.card.red {
+    color: red;
+}
+
+.card .suit {
+    font-size: 24px;
+    /* Larger font size for the suit */
+    position: absolute;
+    /* Absolutely positioned relative to the card */
+    top: 50%;
+    /* Move to the vertical center */
+    left: 50%;
+    /* Move to the horizontal center */
+    transform: translate(-50%, -50%);
+    /* Precisely center the suit */
+}
+
+.card .top-left {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card .bottom-right {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 14px;
+    text-align: right;
+}
+
+/* Buttons styling */
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* Makes the buttons circular */
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    /* Add spacing between buttons */
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Add smooth hover effect */
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    /* Slightly enlarge on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#hit {
+    background-color: green;
+    /* Green for "Hit" */
+    color: white;
+}
+
+#hit:hover {
+    background-color: darkgreen;
+    /* Darker shade on hover */
+}
+
+#stand {
+    background-color: red;
+    /* Red for "Stand" */
+    color: white;
+}
+
+#stand:hover {
+    background-color: darkred;
+    /* Darker shade on hover */
+}
+
+button.play-again {
+    background-color: gray;
+    /* Neutral color for "Yes" and "No" */
+    color: white;
+}
+
+button.play-again:hover {
+    background-color: darkgray;
+    /* Darker gray on hover */
+}
+
+/* Flexbox alignment for buttons */
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Result and action prompt */
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#action-prompt {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
