@@ -25,25 +25,25 @@ Ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd blackjack-game
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Build the project:
-   \`\`\`bash
+   ```bash
    npm run build
-   \`\`\`
+   ```
 
 4. Start the server:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 5. Open the game in your browser:
    - Navigate to [http://localhost:3001](http://localhost:3001).
@@ -52,7 +52,7 @@ Ensure you have the following installed:
 
 ## Folder Structure
 
-\`\`\`
+```
 blackjack-game/
 │
 ├── public/
@@ -67,7 +67,7 @@ blackjack-game/
 ├── package.json     # Project dependencies and scripts
 ├── tsconfig.json    # TypeScript configuration
 ├── README.md        # Project documentation
-\`\`\`
+```
 
 ---
 
@@ -123,25 +123,25 @@ Ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd blackjack-game
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Build the project:
-   \`\`\`bash
+   ```bash
    npm run build
-   \`\`\`
+   ```
 
 4. Start the server:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 5. Open the game in your browser:
    - Navigate to [http://localhost:3001](http://localhost:3001).
@@ -150,7 +150,7 @@ Ensure you have the following installed:
 
 ## Folder Structure
 
-\`\`\`
+```
 blackjack-game/
 │
 ├── public/
@@ -165,7 +165,7 @@ blackjack-game/
 ├── package.json     # Project dependencies and scripts
 ├── tsconfig.json    # TypeScript configuration
 ├── README.md        # Project documentation
-\`\`\`
+```
 
 ---
 
